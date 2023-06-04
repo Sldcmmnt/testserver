@@ -2,11 +2,23 @@ Ha Michiel,
 
 Zie bestanden.
 
-**Doel**: simpele demo van een eenvoudige datakluis kunnen laten zien aan gemeentes waarbij wordt doorgelinkt vanuit een wallet naar achterliggende bestand (transactiegegevens)
-**Probleem**: de huidige UI van css is complex en niet gebruikersvriendelijk waardoor het een slechte indruk kan achterlaten.
+**Doel**: <br>
+Simpele demo van een eenvoudige datakluis kunnen laten zien aan gemeentes, waarbij wordt doorgelinkt vanuit een wallet naar achterliggende bestand (transactiegegevens)
 
-**Behoefte**:
-testserver met een eenvoudige UI, waarbij ik kan linken naar een bepaald bestand in de solidpod. <br>
+**Technisch doel:**
+* Gebruiker zet een bestand in zijn Pod
+* Dat bestand wordt via een externe service omgezet in een VC en in een wallet geladen
+* De VC wordt vanuit de wallet aan de ontvanger aangeboden 
+* In de VC staat een link naar het origine bestand in de Pod
+* Ontvanger klikt op de link en vraagt toestemming aan de gebruiker om het te mogen inzien
+
+
+**Probleem**: <br>
+Er is geen Nederlandse open source test server beschikbaar <br>
+en de huidige UI van css is complex en niet gebruikersvriendelijk waardoor het een slechte indruk kan achterlaten.
+
+**Behoefte**:<br>
+Testserver met een eenvoudige UI, waarbij er kan gelinkt kan worden naar een bepaald bestand in de Solidpod. <br>
 
 **momenteel**
 Bij nextcloud kom ik, na inloggen, eerst in een welkomstscherm terecht met set status, set weather en recommended files.
