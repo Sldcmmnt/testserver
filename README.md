@@ -1,5 +1,3 @@
-Ha Michiel,
-
 Zie bestanden.
 
 **Doel**: <br>
